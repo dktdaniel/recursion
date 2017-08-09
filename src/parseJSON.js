@@ -136,7 +136,7 @@ let parseJSON = function(json) {
         removeWhite();
       }
     }
-    throw new SyntaxError("Bad parseArray");
+    throw new SyntaxError("array");
   };
 
   // parses objects
@@ -164,7 +164,7 @@ let parseJSON = function(json) {
         removeWhite();
       }
     }
-    throw new SyntaxError("Bad object");
+    throw new SyntaxError("object");
   };
 
 
